@@ -1,1 +1,69 @@
 .env
+myenv
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+
+# --- Virtual environments ---
+myenv/
+.env/
+.env.bak/
+.venv/
+*.env
+.envrc
+*.bak
+
+# --- Jupyter notebooks checkpoints ---
+.ipynb_checkpoints/
+
+# --- Streamlit cache ---
+.streamlit/
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs / Temp ---
+*.log
+*.tmp
+*.temp
+*.out
+
+# --- Testing ---
+.tox/
+.coverage
+pytest_cache/
+htmlcov/
+
+# --- Environment & Secrets ---
+.env
+.env.local
+.env.development
+.env.production
+credentials.json
+
+# --- Miscellaneous ---
+# Byte-compiled / optimized / DLL files
+*.pyd
+*.dll
+*.o
+*.a
+
+# --- Optional cache dirs ---
+__cache__/
+.cache/

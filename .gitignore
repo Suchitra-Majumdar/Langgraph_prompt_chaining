@@ -67,3 +67,5 @@ credentials.json
 # --- Optional cache dirs ---
 __cache__/
 .cache/
+venv/
+myenv/
